@@ -1,0 +1,1005 @@
+.container_menus {
+  display: flex;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu1 {
+  width: 300px;
+  height: 470px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px grey;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  background: #FFE3E3;
+}
+
+.note {
+  font-family: Devonshire;
+  margin-top: 100px;
+  color: #3D1319;
+  transition: transform 300ms ease-in-out;
+}
+.note:hover {
+  transform: scale(1.1);
+}
+.note h2 {
+  margin-top: -15px;
+}
+.note h3 {
+  font-family: Tillana;
+  text-transform: uppercase;
+  margin-top: -15px;
+  font-size: 2.8rem;
+}
+
+.menu2 {
+  width: 300px;
+  height: 470px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px grey;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  background: #FFF5FE;
+}
+
+.chic {
+  font-family: "Croissant One";
+  margin-top: 100px;
+  transition: transform 300ms ease-in-out;
+}
+.chic:hover {
+  transform: scale(1.1);
+}
+.chic h2 {
+  background: linear-gradient(to right, #C77529 0%, #6E4CCC 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.chic h3 {
+  font-family: "Source Serif Pro";
+  color: #C77529;
+  font-size: 3.8rem;
+}
+
+.menu3 {
+  width: 300px;
+  height: 470px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px grey;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  background: #EFEFF5;
+}
+
+.delice {
+  font-family: "Dancing Script";
+  margin-top: 100px;
+  background: linear-gradient(to right, #3A4FA2 0%, #4E96D1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 300ms ease-in-out;
+}
+.delice:hover {
+  transform: scale(1.1);
+}
+.delice h3 {
+  font-family: Caveat;
+  font-size: 3.8rem;
+}
+
+.menu4 {
+  width: 300px;
+  height: 470px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px grey;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.palette {
+  font-family: "Kaushan Script";
+  margin-top: 100px;
+  background: linear-gradient(to right, #57A746 0%, #C2DB76 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: transform 300ms ease-in-out;
+}
+.palette:hover {
+  transform: scale(1.1);
+}
+.palette h3 {
+  font-family: Caveat;
+  font-size: 3.8rem;
+}
+
+header {
+  width: auto;
+  height: 110px;
+  background-color: #579C87;
+  margin-bottom: 30px;
+  margin-top: -48px;
+}
+header h1 {
+  color: #FDCB46;
+  font-family: Roboto;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+
+.prochainement {
+  width: 25%;
+  height: 60px;
+  background-color: #579C87;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  padding-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.prochainement span {
+  font-family: Roboto;
+  font-size: 35px;
+  margin-left: 10px;
+  color: #FDCB46;
+}
+
+.fas {
+  color: #FDCB46;
+  margin-left: 15px;
+}
+
+#point1 {
+  opacity: 0;
+  animation: point 1.3s infinite;
+  animation-delay: 0s;
+}
+
+#point2 {
+  opacity: 0;
+  animation: point 1.3s infinite;
+  animation-delay: 0.2s;
+}
+
+#point3 {
+  opacity: 0;
+  animation: point 1.3s infinite;
+  animation-delay: 0.3s;
+}
+
+@keyframes point {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+footer {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #579C87;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+footer .footer {
+  color: #FDCB46;
+  font-family: Roboto;
+  font-size: 30px;
+}
+footer .footer__mentions {
+  margin-left: 15px;
+}
+footer .footer__contact {
+  margin-right: 20px;
+}
+footer .footer:hover {
+  animation: wiggle 300ms infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.container_note {
+  width: 1000px;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px grey;
+  padding-top: 20px;
+  background-color: #FFE3E3;
+}
+
+.titre {
+  text-align: center;
+}
+.titre h2 {
+  margin-top: -15px;
+  font-family: Devonshire;
+  font-size: 3rem;
+  color: #3D1319;
+}
+
+.prelude {
+  display: flex;
+  justify-content: space-between;
+}
+.prelude h3 {
+  font-family: Tillana;
+  font-size: 2rem;
+  color: #3D1319;
+  margin-top: 5px;
+  background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.prelude h3:hover {
+  background-size: 100% 100%;
+}
+.prelude span {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.details_note {
+  font-family: Tillana;
+  font-size: 25px;
+  color: #3D1319;
+}
+.details_note .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 55px;
+}
+.details_note .plat span {
+  float: right;
+  margin-right: 55px;
+  font-weight: bold;
+}
+
+.point_dorgue {
+  display: flex;
+  justify-content: space-between;
+}
+.point_dorgue h3 {
+  font-family: Tillana;
+  font-size: 2rem;
+  color: #3D1319;
+  background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.point_dorgue h3:hover {
+  background-size: 100% 100%;
+}
+.point_dorgue span {
+  margin-left: 55px;
+  margin-right: auto;
+  margin-top: 55px;
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+}
+.final h3 {
+  font-family: Tillana;
+  font-size: 2rem;
+  color: #3D1319;
+  background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.final h3:hover {
+  background-size: 100% 100%;
+}
+.final span {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.reservations {
+  text-align: center;
+}
+.reservations img {
+  margin-top: 30px;
+}
+.reservations h3 {
+  font-family: Devonshire;
+  color: #3D1319;
+  font-size: 1.8rem;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.container_chic {
+  width: 1000px;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px grey;
+  padding-top: 20px;
+  background-color: #FFF5FE;
+}
+
+.reservations_chic {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.reservations_chic h2 {
+  font-family: "Croissant One";
+  font-size: 3rem;
+  background: linear-gradient(to right, #C77529 0%, #6E4CCC 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.appetit {
+  display: flex;
+  justify-content: space-between;
+}
+.appetit h3 {
+  margin-top: -7px;
+  font-family: "Source Serif Pro";
+  font-size: 28px;
+  color: #C77529;
+  background: linear-gradient(to top, #C77529 0%, #C77529 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.appetit h3:hover {
+  background-size: 100% 100%;
+}
+
+.details_entrees_chic {
+  font-family: "Source Serif Pro";
+  font-size: 25px;
+  color: #C77529;
+}
+.details_entrees_chic .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 100px;
+}
+.details_entrees_chic .plat span {
+  float: right;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.plaisir {
+  display: flex;
+  justify-content: space-between;
+}
+.plaisir h3 {
+  font-family: "Source Serif Pro";
+  font-size: 28px;
+  color: #A56799;
+  background: linear-gradient(to top, #A56799 0%, #A56799 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.plaisir h3:hover {
+  background-size: 100% 100%;
+}
+.plaisir span {
+  margin-top: 35px;
+}
+
+.details_plats_chic {
+  font-family: "Source Serif Pro";
+  font-size: 25px;
+  color: #A56799;
+}
+.details_plats_chic .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 100px;
+}
+.details_plats_chic .plat span {
+  float: right;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.gourmandises {
+  display: flex;
+  justify-content: space-between;
+}
+.gourmandises h3 {
+  font-family: "Source Serif Pro";
+  font-size: 28px;
+  color: #6E4CCC;
+  background: linear-gradient(to top, #6E4CCC 0%, #6E4CCC 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.gourmandises h3:hover {
+  background-size: 100% 100%;
+}
+.gourmandises span {
+  margin-top: 35px;
+}
+
+.details_desserts_chic {
+  font-family: "Source Serif Pro";
+  font-size: 25px;
+  color: #6E4CCC;
+  margin-bottom: 100px;
+}
+.details_desserts_chic .plat {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.container_delices {
+  width: 1000px;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px grey;
+  padding-top: 20px;
+  background-color: #EFEFF5;
+}
+
+.reservations_delices {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.reservations_delices h2 {
+  font-family: "Dancing script";
+  font-size: 4rem;
+  background: linear-gradient(to right, #3A4FA2 0%, #4E96D1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.commencer {
+  display: flex;
+  justify-content: space-between;
+}
+.commencer h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.commencer h3:hover {
+  background-size: 100% 100%;
+}
+
+.continuer {
+  display: flex;
+  justify-content: space-between;
+}
+.continuer h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.continuer h3:hover {
+  background-size: 100% 100%;
+}
+
+.terminer {
+  display: flex;
+  justify-content: space-between;
+}
+.terminer h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.terminer h3:hover {
+  background-size: 100% 100%;
+}
+
+.details_delices {
+  font-family: Caveat;
+  font-size: 28px;
+  margin-bottom: 100px;
+}
+.details_delices .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 100px;
+}
+.details_delices .plat span {
+  float: right;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.container_palette {
+  width: 1000px;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 1px grey;
+  padding-top: 20px;
+}
+
+.reservations_palette {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.reservations_palette h2 {
+  font-family: "Kaushan script";
+  font-size: 4rem;
+  background: linear-gradient(to right, #57A746 0%, #C2DB76 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.esquisse {
+  display: flex;
+  justify-content: space-between;
+}
+.esquisse h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.esquisse h3:hover {
+  background-size: 100% 100%;
+}
+
+.oeuvre {
+  display: flex;
+  justify-content: space-between;
+}
+.oeuvre h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.oeuvre h3:hover {
+  background-size: 100% 100%;
+}
+
+.sommet {
+  display: flex;
+  justify-content: space-between;
+}
+.sommet h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.sommet h3:hover {
+  background-size: 100% 100%;
+}
+
+.details_palette {
+  font-family: Caveat;
+  font-size: 28px;
+  margin-bottom: 100px;
+}
+.details_palette .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 100px;
+}
+.details_palette .plat span {
+  float: right;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.bientot h1 {
+  font-family: Roboto;
+  color: #FDCB46;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .container_menus {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .menu3 {
+    margin-top: 30px;
+  }
+
+  .menu4 {
+    margin-top: 30px;
+  }
+
+  header {
+    width: auto;
+    margin-bottom: 50px;
+  }
+
+  .prochainement {
+    width: 50%;
+    margin-top: 50px;
+  }
+}
+@media all and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .container_menus {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu2 {
+    margin-top: 30px;
+  }
+
+  .menu3 {
+    margin-top: 30px;
+  }
+
+  .menu4 {
+    margin-top: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    width: auto;
+  }
+
+  .prochainement {
+    width: 75%;
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+  .prochainement span {
+    font-size: 20px;
+  }
+
+  footer {
+    height: 40px;
+  }
+  footer .footer {
+    font-size: 20px;
+  }
+
+  .container_note {
+    width: 100%;
+  }
+
+  .prelude img {
+    display: none;
+  }
+  .prelude h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .point_dorgue {
+    margin-top: 50px;
+  }
+  .point_dorgue img {
+    display: none;
+  }
+  .point_dorgue h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .final {
+    margin-top: 50px;
+  }
+  .final img {
+    display: none;
+  }
+  .final h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_note {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_note .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_note .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_chic {
+    width: 100%;
+  }
+
+  .appetit img {
+    display: none;
+  }
+  .appetit h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .plaisir {
+    margin-top: 50px;
+  }
+  .plaisir img {
+    display: none;
+  }
+  .plaisir h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gourmandises {
+    margin-top: 50px;
+  }
+  .gourmandises img {
+    display: none;
+  }
+  .gourmandises h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_entrees_chic {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_entrees_chic .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_entrees_chic .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .details_plats_chic {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_plats_chic .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_plats_chic .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .details_desserts_chic {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_desserts_chic .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_desserts_chic .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_delices {
+    width: 100%;
+  }
+
+  .commencer img {
+    display: none;
+  }
+  .commencer h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .continuer {
+    margin-top: 50px;
+  }
+  .continuer img {
+    display: none;
+  }
+  .continuer h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .terminer {
+    margin-top: 50px;
+  }
+  .terminer img {
+    display: none;
+  }
+  .terminer h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_delices {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_delices .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_delices .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .esquisse img {
+    display: none;
+  }
+  .esquisse h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .oeuvre {
+    margin-top: 50px;
+  }
+  .oeuvre img {
+    display: none;
+  }
+  .oeuvre h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sommet {
+    margin-top: 50px;
+  }
+  .sommet img {
+    display: none;
+  }
+  .sommet h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_palette {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_palette .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_palette .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
