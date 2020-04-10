@@ -670,6 +670,24 @@ footer {
     }
 }
 
+//mentions légales
+
+.mentions_legales {
+    @include container_pages;
+    h1 {
+        text-align: center;
+    }
+}
+
+.mentions {
+    h3 {
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+    }
+}
+
 
 //page réservations
 
@@ -714,6 +732,10 @@ footer {
     .prochainement {
         width: 50%;
         margin-top: 50px;
+    }
+
+    .mentions_legales {
+        width: 100%;
     }
 
 }
@@ -994,6 +1016,10 @@ footer {
                 justify-content: center;
             }
         }           
+    }
+
+    .mentions_legales {
+        width: 100%;
     }
 }
 
