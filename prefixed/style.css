@@ -1,0 +1,1312 @@
+.container_menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu1 {
+  width: 300px;
+  height: 470px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px grey;
+          box-shadow: 0px 0px 8px 1px grey;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  background: #FFE3E3;
+}
+
+.note {
+  font-family: Devonshire;
+  margin-top: 100px;
+  color: #3D1319;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  -o-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+.note:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.note h2 {
+  margin-top: -15px;
+}
+.note h3 {
+  font-family: Tillana;
+  text-transform: uppercase;
+  margin-top: -15px;
+  font-size: 2.8rem;
+}
+
+.menu2 {
+  width: 300px;
+  height: 470px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px grey;
+          box-shadow: 0px 0px 8px 1px grey;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  background: #FFF5FE;
+}
+
+.chic {
+  font-family: "Croissant One";
+  margin-top: 100px;
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  -o-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+.chic:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.chic h2 {
+  background: -webkit-gradient(linear, left top, right top, from(#C77529), to(#6E4CCC));
+  background: -o-linear-gradient(left, #C77529 0%, #6E4CCC 100%);
+  background: linear-gradient(to right, #C77529 0%, #6E4CCC 100%);
+}
+.chic h3 {
+  font-family: "Source Serif Pro";
+  color: #C77529;
+  font-size: 3.8rem;
+}
+
+.menu3 {
+  width: 300px;
+  height: 470px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px grey;
+          box-shadow: 0px 0px 8px 1px grey;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+  background: #EFEFF5;
+}
+
+.delice {
+  font-family: "Dancing Script";
+  margin-top: 100px;
+  background: -webkit-gradient(linear, left top, right top, from(#3A4FA2), to(#4E96D1));
+  background: -o-linear-gradient(left, #3A4FA2 0%, #4E96D1 100%);
+  background: linear-gradient(to right, #3A4FA2 0%, #4E96D1 100%);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  -o-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+.delice:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.delice h3 {
+  font-family: Caveat;
+  font-size: 3.8rem;
+}
+
+.menu4 {
+  width: 300px;
+  height: 470px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px grey;
+          box-shadow: 0px 0px 8px 1px grey;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.palette {
+  font-family: "Kaushan Script";
+  margin-top: 100px;
+  background: -webkit-gradient(linear, left top, right top, from(#57A746), to(#C2DB76));
+  background: -o-linear-gradient(left, #57A746 0%, #C2DB76 100%);
+  background: linear-gradient(to right, #57A746 0%, #C2DB76 100%);
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  transition: -webkit-transform 300ms ease-in-out;
+  -o-transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+}
+.palette:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.palette h3 {
+  font-family: Caveat;
+  font-size: 3.8rem;
+}
+
+header {
+  width: auto;
+  height: 110px;
+  background-color: #579C87;
+  margin-bottom: 30px;
+  margin-top: -48px;
+}
+header h1 {
+  color: #FDCB46;
+  font-family: Roboto;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+}
+
+.prochainement {
+  width: 25%;
+  height: 60px;
+  background-color: #579C87;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  padding-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.prochainement span {
+  font-family: Roboto;
+  font-size: 35px;
+  margin-left: 10px;
+  color: #FDCB46;
+}
+
+.fas {
+  color: #FDCB46;
+  margin-left: 15px;
+}
+
+#point1 {
+  opacity: 0;
+  -webkit-animation: point 1.3s infinite;
+          animation: point 1.3s infinite;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+#point2 {
+  opacity: 0;
+  -webkit-animation: point 1.3s infinite;
+          animation: point 1.3s infinite;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+#point3 {
+  opacity: 0;
+  -webkit-animation: point 1.3s infinite;
+          animation: point 1.3s infinite;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+@-webkit-keyframes point {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes point {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #579C87;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+footer .footer {
+  color: #FDCB46;
+  font-family: Roboto;
+  font-size: 30px;
+}
+footer .footer__mentions {
+  margin-left: 15px;
+}
+footer .footer__contact {
+  margin-right: 20px;
+}
+footer .footer:hover {
+  -webkit-animation: wiggle 300ms infinite;
+          animation: wiggle 300ms infinite;
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.container_note {
+  width: 1000px;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px grey;
+          box-shadow: 0px 0px 8px 1px grey;
+  padding-top: 20px;
+  background-color: #FFE3E3;
+}
+
+.titre {
+  text-align: center;
+}
+.titre h2 {
+  margin-top: -15px;
+  font-family: Devonshire;
+  font-size: 3rem;
+  color: #3D1319;
+}
+
+.prelude {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.prelude h3 {
+  font-family: Tillana;
+  font-size: 2rem;
+  color: #3D1319;
+  margin-top: 5px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3D1319), color-stop(10%, #3D1319), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.prelude h3:hover {
+  background-size: 100% 100%;
+}
+.prelude span {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.details_note {
+  font-family: Tillana;
+  font-size: 25px;
+  color: #3D1319;
+}
+.details_note .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 55px;
+}
+.details_note .plat span {
+  float: right;
+  margin-right: 55px;
+  font-weight: bold;
+}
+
+.point_dorgue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.point_dorgue h3 {
+  font-family: Tillana;
+  font-size: 2rem;
+  color: #3D1319;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3D1319), color-stop(10%, #3D1319), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.point_dorgue h3:hover {
+  background-size: 100% 100%;
+}
+.point_dorgue span {
+  margin-left: 55px;
+  margin-right: auto;
+  margin-top: 55px;
+}
+
+.final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.final h3 {
+  font-family: Tillana;
+  font-size: 2rem;
+  color: #3D1319;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3D1319), color-stop(10%, #3D1319), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.final h3:hover {
+  background-size: 100% 100%;
+}
+.final span {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.reservations {
+  text-align: center;
+}
+.reservations img {
+  margin-top: 30px;
+}
+.reservations h3 {
+  font-family: Devonshire;
+  color: #3D1319;
+  font-size: 1.8rem;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.container_chic {
+  width: 1000px;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px grey;
+          box-shadow: 0px 0px 8px 1px grey;
+  padding-top: 20px;
+  background-color: #FFF5FE;
+}
+
+.reservations_chic {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.reservations_chic h2 {
+  font-family: "Croissant One";
+  font-size: 3rem;
+  background: -webkit-gradient(linear, left top, right top, from(#C77529), to(#6E4CCC));
+  background: -o-linear-gradient(left, #C77529 0%, #6E4CCC 100%);
+  background: linear-gradient(to right, #C77529 0%, #6E4CCC 100%);
+}
+
+.appetit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.appetit h3 {
+  margin-top: -7px;
+  font-family: "Source Serif Pro";
+  font-size: 28px;
+  color: #C77529;
+  background: -webkit-gradient(linear, left bottom, left top, from(#C77529), color-stop(10%, #C77529), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #C77529 0%, #C77529 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #C77529 0%, #C77529 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.appetit h3:hover {
+  background-size: 100% 100%;
+}
+
+.details_entrees_chic {
+  font-family: "Source Serif Pro";
+  font-size: 25px;
+  color: #C77529;
+}
+.details_entrees_chic .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 100px;
+}
+.details_entrees_chic .plat span {
+  float: right;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.plaisir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.plaisir h3 {
+  font-family: "Source Serif Pro";
+  font-size: 28px;
+  color: #A56799;
+  background: -webkit-gradient(linear, left bottom, left top, from(#A56799), color-stop(10%, #A56799), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #A56799 0%, #A56799 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #A56799 0%, #A56799 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.plaisir h3:hover {
+  background-size: 100% 100%;
+}
+.plaisir span {
+  margin-top: 35px;
+}
+
+.details_plats_chic {
+  font-family: "Source Serif Pro";
+  font-size: 25px;
+  color: #A56799;
+}
+.details_plats_chic .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 100px;
+}
+.details_plats_chic .plat span {
+  float: right;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.gourmandises {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.gourmandises h3 {
+  font-family: "Source Serif Pro";
+  font-size: 28px;
+  color: #6E4CCC;
+  background: -webkit-gradient(linear, left bottom, left top, from(#6E4CCC), color-stop(10%, #6E4CCC), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #6E4CCC 0%, #6E4CCC 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #6E4CCC 0%, #6E4CCC 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.gourmandises h3:hover {
+  background-size: 100% 100%;
+}
+.gourmandises span {
+  margin-top: 35px;
+}
+
+.details_desserts_chic {
+  font-family: "Source Serif Pro";
+  font-size: 25px;
+  color: #6E4CCC;
+  margin-bottom: 100px;
+}
+.details_desserts_chic .plat {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.container_delices {
+  width: 1000px;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px grey;
+          box-shadow: 0px 0px 8px 1px grey;
+  padding-top: 20px;
+  background-color: #EFEFF5;
+}
+
+.reservations_delices {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.reservations_delices h2 {
+  font-family: "Dancing script";
+  font-size: 4rem;
+  background: -webkit-gradient(linear, left top, right top, from(#3A4FA2), to(#4E96D1));
+  background: -o-linear-gradient(left, #3A4FA2 0%, #4E96D1 100%);
+  background: linear-gradient(to right, #3A4FA2 0%, #4E96D1 100%);
+}
+
+.commencer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.commencer h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), color-stop(10%, #000000), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.commencer h3:hover {
+  background-size: 100% 100%;
+}
+
+.continuer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.continuer h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), color-stop(10%, #000000), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.continuer h3:hover {
+  background-size: 100% 100%;
+}
+
+.terminer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.terminer h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), color-stop(10%, #000000), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.terminer h3:hover {
+  background-size: 100% 100%;
+}
+
+.details_delices {
+  font-family: Caveat;
+  font-size: 28px;
+  margin-bottom: 100px;
+}
+.details_delices .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 100px;
+}
+.details_delices .plat span {
+  float: right;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.container_palette {
+  width: 1000px;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px grey;
+          box-shadow: 0px 0px 8px 1px grey;
+  padding-top: 20px;
+}
+
+.reservations_palette {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.reservations_palette h2 {
+  font-family: "Kaushan script";
+  font-size: 4rem;
+  background: -webkit-gradient(linear, left top, right top, from(#57A746), to(#C2DB76));
+  background: -o-linear-gradient(left, #57A746 0%, #C2DB76 100%);
+  background: linear-gradient(to right, #57A746 0%, #C2DB76 100%);
+}
+
+.esquisse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.esquisse h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), color-stop(10%, #000000), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.esquisse h3:hover {
+  background-size: 100% 100%;
+}
+
+.oeuvre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.oeuvre h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), color-stop(10%, #000000), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.oeuvre h3:hover {
+  background-size: 100% 100%;
+}
+
+.sommet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.sommet h3 {
+  font-family: Caveat;
+  font-size: 32px;
+  margin-top: -10px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#000000), color-stop(10%, #000000), color-stop(10.01%, transparent)) no-repeat;
+  background: -o-linear-gradient(bottom, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  -o-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+.sommet h3:hover {
+  background-size: 100% 100%;
+}
+
+.details_palette {
+  font-family: Caveat;
+  font-size: 28px;
+  margin-bottom: 100px;
+}
+.details_palette .plat {
+  text-align: left;
+  clear: both;
+  margin-left: 100px;
+}
+.details_palette .plat span {
+  float: right;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.mentions_legales {
+  width: 1000px;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 1px grey;
+          box-shadow: 0px 0px 8px 1px grey;
+  padding-top: 20px;
+}
+.mentions_legales h2 {
+  text-align: center;
+}
+
+.mentions h3 {
+  text-align: center;
+}
+.mentions p {
+  text-align: justify;
+}
+
+.bientot h1 {
+  font-family: Roboto;
+  color: #FDCB46;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .container_menus {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .menu3 {
+    margin-top: 30px;
+  }
+
+  .menu4 {
+    margin-top: 30px;
+  }
+
+  header {
+    width: auto;
+    margin-bottom: 50px;
+  }
+
+  .prochainement {
+    width: 50%;
+    margin-top: 50px;
+  }
+
+  .mentions_legales {
+    width: 100%;
+  }
+}
+@media all and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .container_menus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .menu2 {
+    margin-top: 30px;
+  }
+
+  .menu3 {
+    margin-top: 30px;
+  }
+
+  .menu4 {
+    margin-top: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    width: auto;
+  }
+
+  .prochainement {
+    width: 75%;
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+  .prochainement span {
+    font-size: 20px;
+  }
+
+  footer {
+    height: 40px;
+  }
+  footer .footer {
+    font-size: 20px;
+  }
+
+  .container_note {
+    width: 100%;
+  }
+
+  .prelude img {
+    display: none;
+  }
+  .prelude h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .point_dorgue {
+    margin-top: 50px;
+  }
+  .point_dorgue img {
+    display: none;
+  }
+  .point_dorgue h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .final {
+    margin-top: 50px;
+  }
+  .final img {
+    display: none;
+  }
+  .final h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_note {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .details_note .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_note .plat span {
+    float: none;
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .container_chic {
+    width: 100%;
+  }
+
+  .appetit img {
+    display: none;
+  }
+  .appetit h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .plaisir {
+    margin-top: 50px;
+  }
+  .plaisir img {
+    display: none;
+  }
+  .plaisir h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gourmandises {
+    margin-top: 50px;
+  }
+  .gourmandises img {
+    display: none;
+  }
+  .gourmandises h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_entrees_chic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .details_entrees_chic .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_entrees_chic .plat span {
+    float: none;
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .details_plats_chic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .details_plats_chic .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_plats_chic .plat span {
+    float: none;
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .details_desserts_chic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .details_desserts_chic .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_desserts_chic .plat span {
+    float: none;
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .container_delices {
+    width: 100%;
+  }
+
+  .commencer img {
+    display: none;
+  }
+  .commencer h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .continuer {
+    margin-top: 50px;
+  }
+  .continuer img {
+    display: none;
+  }
+  .continuer h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .terminer {
+    margin-top: 50px;
+  }
+  .terminer img {
+    display: none;
+  }
+  .terminer h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_delices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .details_delices .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_delices .plat span {
+    float: none;
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .esquisse img {
+    display: none;
+  }
+  .esquisse h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .oeuvre {
+    margin-top: 50px;
+  }
+  .oeuvre img {
+    display: none;
+  }
+  .oeuvre h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sommet {
+    margin-top: 50px;
+  }
+  .sommet img {
+    display: none;
+  }
+  .sommet h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_palette {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .details_palette .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_palette .plat span {
+    float: none;
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .mentions_legales {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL21haW4uc2NzcyIsIi4uL3N0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxRUE7RUFDSSxvQkFBQTtFQUFBLG9CQUFBO0VBQUEsYUFBQTtFQUNBLFdBQUE7QUNwRUo7O0FEeUVBO0VBQ0kscUJBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0FDdEVKOztBRHlFQTtFQS9FSSxZQUFBO0VBQ0EsYUFBQTtFQUNBLDZCQUFBO0VBQ0Esa0JBQUE7RUFDQSx3Q0FBQTtVQUFBLGdDQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0VBd0VBLG1CQUFBO0FDN0RKOztBRGdFQTtFQUNJLHVCQUFBO0VBQ0EsaUJBQUE7RUFDQSxjQUFBO0VBN0RBLHVEQUFBO0VBQUEsK0NBQUE7RUFBQSwwQ0FBQTtFQUFBLHVDQUFBO0VBQUEsNEVBQUE7QUNDSjtBREFJO0VBQ0ksNkJBQUE7TUFBQSx5QkFBQTtVQUFBLHFCQUFBO0FDRVI7QUQyREk7RUFDSSxpQkFBQTtBQ3pEUjtBRDJESTtFQUNJLG9CQUFBO0VBQ0EseUJBQUE7RUFDQSxpQkFBQTtFQUNBLGlCQUFBO0FDekRSOztBRDZEQTtFQXBHSSxZQUFBO0VBQ0EsYUFBQTtFQUNBLDZCQUFBO0VBQ0Esa0JBQUE7RUFDQSx3Q0FBQTtVQUFBLGdDQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0VBNkZBLG1CQUFBO0FDakRKOztBRG9EQTtFQUNJLDRCQUFBO0VBQ0EsaUJBOUNlO0VBbkNmLHVEQUFBO0VBQUEsK0NBQUE7RUFBQSwwQ0FBQTtFQUFBLHVDQUFBO0VBQUEsNEVBQUE7QUNpQ0o7QURoQ0k7RUFDSSw2QkFBQTtNQUFBLHlCQUFBO1VBQUEscUJBQUE7QUNrQ1I7QUQrQ0k7RUFDQSxxRkFBQTtFQUFBLDhEQUFBO0VBQUEsK0RBQUE7QUM3Q0o7QUQrQ0k7RUFDSSwrQkFBQTtFQUNBLGNBQUE7RUFD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 */
