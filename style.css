@@ -66,7 +66,6 @@ a {
 }
 .chic h2 {
   background: linear-gradient(to right, #C77529 0%, #6E4CCC 100%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -94,7 +93,6 @@ a {
   font-family: "Dancing Script";
   margin-top: 100px;
   background: linear-gradient(to right, #3A4FA2 0%, #4E96D1 100%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: transform 300ms ease-in-out;
@@ -124,7 +122,6 @@ a {
   font-family: "Kaushan Script";
   margin-top: 100px;
   background: linear-gradient(to right, #57A746 0%, #C2DB76 100%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: transform 300ms ease-in-out;
@@ -406,7 +403,6 @@ footer .footer:hover {
   font-family: "Croissant One";
   font-size: 3rem;
   background: linear-gradient(to right, #C77529 0%, #6E4CCC 100%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -531,7 +527,6 @@ footer .footer:hover {
   font-family: "Dancing script";
   font-size: 4rem;
   background: linear-gradient(to right, #3A4FA2 0%, #4E96D1 100%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -621,7 +616,6 @@ footer .footer:hover {
   font-family: "Kaushan script";
   font-size: 4rem;
   background: linear-gradient(to right, #57A746 0%, #C2DB76 100%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
