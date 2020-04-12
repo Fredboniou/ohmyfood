@@ -706,9 +706,10 @@ footer .footer:hover {
   text-align: justify;
 }
 
-.bientot h1 {
+.bientot h2 {
   font-family: Roboto;
   color: #FDCB46;
+  font-size: 28px;
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
