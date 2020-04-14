@@ -1,0 +1,113 @@
+//Le chic à la française
+
+.container_chic {
+    @include container_pages;
+    background-color: #FFF5FE;
+}
+
+.reservations_chic {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    h2 {
+        font-family: 'Croissant One';
+        font-size: 3rem;
+        background: linear-gradient(to right, #C77529 0%, #6E4CCC 100%);
+        @include degrades;
+    }
+}
+
+.appetit {
+    @include dispo_titres;
+    h3 {
+        margin-top: -7px;
+        font-family: 'Source Serif Pro';
+        font-size: 28px;
+        color: #C77529;
+        background: linear-gradient(to top, #C77529 0%, #C77529 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.details_entrees_chic {
+    font-family: 'Source Serif Pro';
+    font-size: 25px;
+    color: #C77529;
+    .plat {
+        text-align: left;
+        clear: both;
+        margin-left: 100px;
+        span {
+            float: right;
+            margin-right: 100px;
+            font-weight: bold;
+        }
+    }
+}
+
+.plaisir {
+    @include dispo_titres;
+    h3 {
+        font-family: 'Source Serif Pro';
+        font-size: 28px;
+        color: #A56799;
+        background: linear-gradient(to top, #A56799 0%, #A56799 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+    span {
+        margin-top: 35px;
+    }
+}
+
+.details_plats_chic {
+    font-family: 'Source Serif Pro';
+    font-size: 25px;
+    color: #A56799;
+    .plat {
+        text-align: left;
+        clear: both;
+        margin-left: 100px;
+        span {
+            float: right;
+            margin-right: 100px;
+            font-weight: bold;
+        }
+    }
+}
+
+.gourmandises {
+    @include dispo_titres;
+    h3 {
+        font-family: 'Source Serif Pro';
+        font-size: 28px;
+        color: #6E4CCC;
+        background: linear-gradient(to top, #6E4CCC 0%, #6E4CCC 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+    span {
+        margin-top: 35px;
+    }
+}
+
+.details_desserts_chic {
+    font-family: 'Source Serif Pro';
+    font-size: 25px;
+    color: #6E4CCC;
+    margin-bottom: 100px;
+    .plat {
+        text-align: left;
+        margin-left: 100px;
+    }    
+}

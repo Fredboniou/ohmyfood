@@ -1,0 +1,79 @@
+//Le délice des papilles
+
+.container_delices {
+    @include container_pages;
+    background-color: #EFEFF5;
+}
+
+.reservations_delices {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    h2 {
+        font-family: 'Dancing script';
+        font-size: 4rem;
+        background: linear-gradient(to right, #3A4FA2 0%, #4E96D1 100%);
+        @include degrades;
+    }
+}
+
+.commencer {
+    @include dispo_titres;
+    h3 {
+        font-family: Caveat;
+        font-size: 32px;
+        margin-top: -10px;
+        background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.continuer {
+    @include dispo_titres;
+    h3 {
+        font-family: Caveat;
+        font-size: 32px;
+        margin-top: -10px;
+        background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.terminer {
+    @include dispo_titres;
+    h3 {
+        font-family: Caveat;
+        font-size: 32px;
+        margin-top: -10px;
+        background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.details_delices {
+    font-family: Caveat;
+    font-size: 28px;
+    margin-bottom: 100px;
+    .plat {
+        text-align: left;
+        clear: both;
+        margin-left: 100px;
+        span {
+            float: right;
+            margin-right: 100px;
+            font-weight: bold;
+        }
+    }
+}

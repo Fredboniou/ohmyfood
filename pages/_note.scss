@@ -1,0 +1,98 @@
+//la note enchantée
+.container_note {
+    @include container_pages;
+    background-color: #FFE3E3;
+}
+
+.titre {
+    text-align: center;   
+    h2 {
+        margin-top: -15px;
+        font-family: Devonshire;
+        font-size: 3rem;
+        color: #3D1319;
+    }
+}
+
+.prelude {
+    @include dispo_titres;
+    h3 {
+      @include categorie_menu;
+      margin-top: 5px; 
+      background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+      background-size: 0 100%;
+      transition: background-size 300ms;
+      &:hover {
+          background-size: 100% 100%;
+      }
+    }
+    span {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+}
+
+.details_note {
+    @include details;
+    .plat {
+        text-align: left;
+        clear: both;
+        margin-left: 55px;
+        span {
+            float: right;
+            margin-right: 55px;
+            font-weight: bold;
+        }
+    }
+}
+
+.point_dorgue {
+    @include dispo_titres;
+    h3 {
+        @include categorie_menu;
+        background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+    span {
+        margin-left: 55px;
+        margin-right: auto;
+        margin-top: 55px;
+    }
+}
+
+.final {
+    @include dispo_titres;
+    h3 {
+        @include categorie_menu;
+        background: linear-gradient(to top, #3D1319 0%, #3D1319 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+    span {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+}
+
+.reservations {
+    text-align: center;
+    img {
+        margin-top: 30px;
+    }
+    h3 {
+        font-family: Devonshire;
+        color: #3D1319;
+        font-size: 1.8rem;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}

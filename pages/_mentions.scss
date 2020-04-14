@@ -1,0 +1,17 @@
+//mentions légales
+
+.mentions_legales {
+    @include container_pages;
+    h2 {
+        text-align: center;
+    }
+}
+
+.mentions {
+    h3 {
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+    }
+}

@@ -1,0 +1,78 @@
+//La palette du goût
+
+.container_palette {
+    @include container_pages;
+}
+
+.reservations_palette {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    h2 {
+        font-family: 'Kaushan script';
+        font-size: 4rem;
+        background: linear-gradient(to right, #57A746 0%, #C2DB76 100%);
+        @include degrades;
+    }
+}
+
+.esquisse {
+    @include dispo_titres;
+    h3 {
+        font-family: Caveat;
+        font-size: 32px;
+        margin-top: -10px;
+        background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.oeuvre {
+    @include dispo_titres;
+    h3 {
+        font-family: Caveat;
+        font-size: 32px;
+        margin-top: -10px;
+        background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.sommet {
+    @include dispo_titres;
+    h3 {
+        font-family: Caveat;
+        font-size: 32px;
+        margin-top: -10px;
+        background: linear-gradient(to top, #000000 0%, #000000 10%, transparent 10.01%) no-repeat;
+        background-size: 0 100%;
+        transition: background-size 300ms;
+        &:hover {
+            background-size: 100% 100%;
+        }
+    }
+}
+
+.details_palette {
+    font-family: Caveat;
+    font-size: 28px;
+    margin-bottom: 100px;
+    .plat {
+        text-align: left;
+        clear: both;
+        margin-left: 100px;
+        span {
+            float: right;
+            margin-right: 100px;
+            font-weight: bold;
+        }
+    }
+}

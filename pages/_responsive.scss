@@ -1,0 +1,328 @@
+//responsive
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .container_menus {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .menu3 {
+        margin-top: 30px;
+    }
+
+    .menu4 {
+        margin-top: 30px;
+    }
+
+    header {
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    .prochainement {
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .mentions_legales {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .container_menus {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu2 {
+        margin-top: 30px;
+    }
+
+    .menu3 {
+        margin-top: 30px;
+    }
+
+    .menu4 {
+        margin-top: 30px;
+    }
+
+    header {
+        margin-bottom: 50px;
+        width: auto;
+    }
+
+    .prochainement {
+        width: 75%;
+        margin-top: 50px;
+        padding-top: 30px;
+        span {
+            font-size: 20px;
+        }
+    }
+
+    footer {
+        height: 40px;
+        .footer {
+            font-size: 20px;
+        }
+    }
+
+    .container_note {
+        width: 100%;
+    }
+
+    .prelude {
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .point_dorgue {
+        margin-top: 50px;
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .final {
+        margin-top: 50px;
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .details_note {
+        display: flex;
+        flex-direction: column;
+        .plat {
+            margin-left: 0;
+            text-align: center;
+            span {
+                float: none;
+                margin-right: 0;
+                display: flex;
+                justify-content: center;
+            }
+        }           
+    }
+
+    .container_chic {
+        width: 100%;
+    }
+
+    .appetit {
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .plaisir {
+        margin-top: 50px;
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .gourmandises {
+        margin-top: 50px;
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .details_entrees_chic {
+        display: flex;
+        flex-direction: column;
+        .plat {
+            margin-left: 0;
+            text-align: center;
+            span {
+                float: none;
+                margin-right: 0;
+                display: flex;
+                justify-content: center;
+            }
+        }           
+    }
+
+    .details_plats_chic {
+        display: flex;
+        flex-direction: column;
+        .plat {
+            margin-left: 0;
+            text-align: center;
+            span {
+                float: none;
+                margin-right: 0;
+                display: flex;
+                justify-content: center;
+            }
+        }           
+    }
+
+    .details_desserts_chic {
+        display: flex;
+        flex-direction: column;
+        .plat {
+            margin-left: 0;
+            text-align: center;
+            span {
+                float: none;
+                margin-right: 0;
+                display: flex;
+                justify-content: center;
+            }
+        }           
+    }
+
+    .container_delices {
+        width: 100%;
+    }
+
+    .commencer {
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .continuer {
+        margin-top: 50px;
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .terminer {
+        margin-top: 50px;
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .details_delices {
+        display: flex;
+        flex-direction: column;
+        .plat {
+            margin-left: 0;
+            text-align: center;
+            span {
+                float: none;
+                margin-right: 0;
+                display: flex;
+                justify-content: center;
+            }
+        }           
+    }
+
+    .container_palette {
+        width: 100%;
+    }
+
+    .esquisse {
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        } 
+    }
+
+    .oeuvre {
+        margin-top: 50px;
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .sommet {
+        margin-top: 50px;
+        img {
+            display: none;
+        }
+        h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .details_palette {
+        display: flex;
+        flex-direction: column;
+        .plat {
+            margin-left: 0;
+            text-align: center;
+            span {
+                float: none;
+                margin-right: 0;
+                display: flex;
+                justify-content: center;
+            }
+        }           
+    }
+
+    .mentions_legales {
+        width: 100%;
+    }
+}
