@@ -712,7 +712,46 @@ a {
   font-size: 28px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  body {
+    width: auto;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .container_menus {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .menu3 {
+    margin-top: 30px;
+  }
+
+  .menu4 {
+    margin-top: 30px;
+  }
+
+  header {
+    width: auto;
+    margin-bottom: 50px;
+  }
+
+  .prochainement {
+    width: 50%;
+    margin-top: 50px;
+  }
+
+  .mentions_legales {
+    width: 100%;
+  }
+}
+@media all and (min-width: 987px) and (max-width: 1024px) {
   body {
     width: 100%;
   }
@@ -745,6 +784,313 @@ a {
   .prochainement {
     width: 50%;
     margin-top: 50px;
+  }
+
+  .mentions_legales {
+    width: 100%;
+  }
+
+  .container_note {
+    width: 100%;
+  }
+
+  .container_chic {
+    width: 100%;
+  }
+
+  .container_delices {
+    width: 100%;
+  }
+
+  .details_delices {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_delices .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_delices .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_palette {
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 987px) {
+  body {
+    width: 100%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+
+  .container_menus {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu2 {
+    margin-top: 30px;
+  }
+
+  .menu3 {
+    margin-top: 30px;
+  }
+
+  .menu4 {
+    margin-top: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    width: auto;
+  }
+
+  .prochainement {
+    width: 75%;
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+
+  footer {
+    height: 40px;
+  }
+  footer .footer {
+    font-size: 20px;
+  }
+
+  .container_note {
+    width: 100%;
+  }
+
+  .prelude img {
+    display: none;
+  }
+  .prelude h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .point_dorgue {
+    margin-top: 50px;
+  }
+  .point_dorgue img {
+    display: none;
+  }
+  .point_dorgue h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .final {
+    margin-top: 50px;
+  }
+  .final img {
+    display: none;
+  }
+  .final h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_note {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_note .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_note .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_chic {
+    width: 100%;
+  }
+
+  .appetit img {
+    display: none;
+  }
+  .appetit h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .plaisir {
+    margin-top: 50px;
+  }
+  .plaisir img {
+    display: none;
+  }
+  .plaisir h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gourmandises {
+    margin-top: 50px;
+  }
+  .gourmandises img {
+    display: none;
+  }
+  .gourmandises h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_entrees_chic {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_entrees_chic .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_entrees_chic .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .details_plats_chic {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_plats_chic .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_plats_chic .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .details_desserts_chic {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_desserts_chic .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_desserts_chic .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_delices {
+    width: 100%;
+  }
+
+  .commencer img {
+    display: none;
+  }
+  .commencer h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .continuer {
+    margin-top: 50px;
+  }
+  .continuer img {
+    display: none;
+  }
+  .continuer h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .terminer {
+    margin-top: 50px;
+  }
+  .terminer img {
+    display: none;
+  }
+  .terminer h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_delices {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_delices .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_delices .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_palette {
+    width: 100%;
+  }
+
+  .esquisse img {
+    display: none;
+  }
+  .esquisse h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .oeuvre {
+    margin-top: 50px;
+  }
+  .oeuvre img {
+    display: none;
+  }
+  .oeuvre h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sommet {
+    margin-top: 50px;
+  }
+  .sommet img {
+    display: none;
+  }
+  .sommet h3 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details_palette {
+    display: flex;
+    flex-direction: column;
+  }
+  .details_palette .plat {
+    margin-left: 0;
+    text-align: center;
+  }
+  .details_palette .plat span {
+    float: none;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
   }
 
   .mentions_legales {
