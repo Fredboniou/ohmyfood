@@ -104,10 +104,12 @@ a {
   font-family: Devonshire;
   margin-top: 100px;
   color: #3D1319;
-  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, opacity 300ms 100ms;
+  opacity: 1;
 }
 .note:hover {
   transform: scale(1.1);
+  opacity: 0.7;
 }
 .note h2 {
   margin-top: -15px;
@@ -136,10 +138,12 @@ a {
 .chic {
   font-family: "Croissant One";
   margin-top: 100px;
-  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, opacity 300ms 100ms;
+  opacity: 1;
 }
 .chic:hover {
   transform: scale(1.1);
+  opacity: 0.7;
 }
 .chic h2 {
   background: linear-gradient(to right, #C77529 0%, #6E4CCC 100%);
@@ -172,10 +176,12 @@ a {
   background: linear-gradient(to right, #3A4FA2 0%, #4E96D1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, opacity 300ms 100ms;
+  opacity: 1;
 }
 .delice:hover {
   transform: scale(1.1);
+  opacity: 0.7;
 }
 .delice h3 {
   font-family: Caveat;
@@ -201,10 +207,12 @@ a {
   background: linear-gradient(to right, #57A746 0%, #C2DB76 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, opacity 300ms 100ms;
+  opacity: 1;
 }
 .palette:hover {
   transform: scale(1.1);
+  opacity: 0.7;
 }
 .palette h3 {
   font-family: Caveat;

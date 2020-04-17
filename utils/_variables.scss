@@ -32,9 +32,11 @@
 }
 
 @mixin zoom {
-    transition: transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out, opacity 300ms 100ms;
+    opacity: 1;
     &:hover {
         transform: scale(1.10);
+        opacity: 0.7;
     }
 }
 
